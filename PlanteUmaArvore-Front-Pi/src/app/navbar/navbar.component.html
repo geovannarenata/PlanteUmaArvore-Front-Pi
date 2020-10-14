@@ -1,26 +1,26 @@
 <nav class="navbar navbar-expand-lg navbar-light nav-cor">
-    <a class="navbar-brand" href="home">Navbar</a>
-    <button class="navbar-toggler efeito efeito-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <li class="dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" routerLink='/sobre'>Sobre</a>        
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" routerLink='/contato'>Contato</a>
-      </div>
-    </li>  
-    <div class="container-fluid d-flex justify-content-center">      
+  
+  <!-- Imagem Logo-->
+  <a href="#">
+    <img class="logo-navbar" src="https://i.imgur.com/4akMczb.png" >   
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse navbar-btn" >
+    <div class="container d-flex justify-content-center texto ">
+        
+        <a class="btn mr-5 btn-sombra " href="#"> Home </a>
+        <a class="btn mr-5 btn-sombra " href="#"> Sobre Nós </a>
+        <a class="btn mr-5 btn-sombra " href="#"> Login </a>
+        <a class="btn mr-5 btn-sombra " href="#"> Cadastro </a>
+        <a class="btn mr-5 btn-sombra " href="#"> Contato </a>
+        <a class="btn mr-5 btn-sombra " href="#"> Informações </a>
+   
     </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <a class="nav-link texto text-monospace text-uppercase font-weight-bold p-3" routerLink='/sobre'>Cadastrar <span class="sr-only">(current)</span></a>            
-      <li class="nav-item">
-        <a class="nav-link texto text-monospace text-uppercase font-weight-bold p-3" routerLink='/sobre'>Logar</a>
-      </li>      
-      </ul>      
-    </div>
+  </div>
+
+
 </nav>
